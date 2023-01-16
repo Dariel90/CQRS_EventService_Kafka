@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CQRS.Core.Handlers;
 
-public interface IEventsSourcingHandler<T>
+public interface IEventSourcingHandler<T>
 {
     Task SaveAsync(AggregateRoot aggregate);
 
