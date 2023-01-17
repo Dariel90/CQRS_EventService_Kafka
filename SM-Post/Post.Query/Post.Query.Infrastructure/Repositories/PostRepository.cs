@@ -23,7 +23,7 @@ public class PostRepository : IPostRepository
     {
         using DatabaseContext context = this.contextFactory.CreateDatabaseContext();
         context.Posts.Add(post);
-        await context.SaveChangesAsync();
+        _ = await context.SaveChangesAsync();
     }
 
     public async Task DeleteAsync(Guid postId)
