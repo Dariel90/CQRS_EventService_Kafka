@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 Action<DbContextOptionsBuilder> configureDbContext = (options => options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configureDbContext));
+Environment.SetEnvironmentVariable("KAFKA_TOPIC", "socialmedia-post-events-topic", EnvironmentVariableTarget.Process);
 
 //Create Database and tables from code
 var dataContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
