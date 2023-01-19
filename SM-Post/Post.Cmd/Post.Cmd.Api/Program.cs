@@ -39,14 +39,14 @@ builder.Services.AddScoped<ICommandHandler, CommandHandler>();
 //register command handler methods
 var commandHandler = builder.Services.BuildServiceProvider().GetService<ICommandHandler>();
 var dispatcher = new CommandDispatcher();
-dispatcher.RegisterHandler<NewPostCommand>(commandHandler.HandleAync);
-dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandleAync);
-dispatcher.RegisterHandler<LikePostCommand>(commandHandler.HandleAync);
-dispatcher.RegisterHandler<AddCommentCommand>(commandHandler.HandleAync);
-dispatcher.RegisterHandler<EditCommentCommand>(commandHandler.HandleAync);
-dispatcher.RegisterHandler<RemoveCommentCommand>(commandHandler.HandleAync);
-dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandleAync);
-
+dispatcher.RegisterHandler<NewPostCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<LikePostCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<AddCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<EditCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<RemoveCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<RestoreReadDbCommand>(commandHandler.HandleAsync);
 builder.Services.AddSingleton<ICommandDispatcher>(_ => dispatcher);
 
 builder.Services.AddControllers();

@@ -12,4 +12,6 @@ public interface IEventSourcingHandler<T>
     Task SaveAsync(AggregateRoot aggregate);
 
     Task<T> GetIdAsync(Guid aggregateId);
+
+    Task RepublishEventsAsync();
 }

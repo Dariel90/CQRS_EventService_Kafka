@@ -18,6 +18,11 @@ namespace Post.Cmd.Infrastructure.Repositories
             this.eventStoreCollection = mongoDatabase.GetCollection<EventModel>(config.Value.Collection);
         }
 
+        public async Task<List<EventModel>> FindAllAsync()
+        {
+            return await this.eventStoreCollection.AsQueryable().Where(_ => true).ToListAsync().ConfigureAwait(false);
+        }
+
         public async Task<List<EventModel>> FindByAggregateIdAsync(Guid aggregateId)
         {
             return await this.eventStoreCollection.AsQueryable().Where(x => x.AggregateIdentifier == aggregateId).ToListAsync().ConfigureAwait(false);
