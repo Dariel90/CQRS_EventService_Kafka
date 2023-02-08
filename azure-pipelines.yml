@@ -27,7 +27,7 @@ steps:
 - task: SonarCloudPrepare@1
   displayName: 'Prepare analysis configuration'
   inputs:
-    SonarCloud: 'SC'
+    SonarCloud: 'SoundCloudService'
     organization: 'daro-azuredev-org'
     scannerMode: 'MSBuild'
     projectKey: 'dariel901231_SonarExamples'
