@@ -14,8 +14,18 @@ using Post.Query.Infrastructure.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-Action<DbContextOptionsBuilder> configureDbContext = (options => options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
-Action<DbContextOptionsBuilder> configurePostgresDbContext = (options => options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+Action<DbContextOptionsBuilder> configureDbContext;
+var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
+if (env.Equals("Development.PostgreSQL"))
+{
+    configureDbContext = (options => options.UseLazyLoadingProxies().UseNpgsql(builder.Configuration.GetConnectionString("SqlServer")));
+}
+else
+{
+    configureDbContext = (options => options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+}
+
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configureDbContext));
 Environment.SetEnvironmentVariable("KAFKA_TOPIC", "socialmedia-post-events-topic", EnvironmentVariableTarget.Process);
