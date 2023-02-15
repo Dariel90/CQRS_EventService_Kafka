@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SonarProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/analyzer/2021/1">
+  <AnalysisConfigPath>D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
+  <ProjectPath>D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj</ProjectPath>
+  <FilesToAnalyzePath>D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\.sonarqube\conf\3\FilesToAnalyze.txt</FilesToAnalyzePath>
+  <OutPath>D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\.sonarqube\out\3</OutPath>
+  <ProjectType>Product</ProjectType>
+  <TargetFramework>net6.0</TargetFramework>
+</SonarProjectConfig>

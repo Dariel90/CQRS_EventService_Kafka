@@ -1,0 +1,1 @@
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\.sonarqube\out\4

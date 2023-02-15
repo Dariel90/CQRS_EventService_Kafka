@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://localhost:9000/",
+  "Organization": null,
+  "ProjectKey": "Dariel90_CQRS_EventService_Kafka_AYZRaRWMVtQMPwznbcBK",
+  "ProjectName": "CQRS_EventService_Kafka",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AYZRR0xHVtQMPwznbbD6",
+      "ProfileTimestamp": "2023-02-14T18:54:32Z"
+    }
+  }
+}

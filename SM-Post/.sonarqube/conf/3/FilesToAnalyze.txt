@@ -1,0 +1,4 @@
+﻿D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Domain\Entities\CommentEntity.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Domain\Entities\PostEntity.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Domain\Repositories\ICommentRepository.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Domain\Repositories\IPostRepository.cs

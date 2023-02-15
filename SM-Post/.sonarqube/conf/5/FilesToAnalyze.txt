@@ -1,0 +1,10 @@
+﻿D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Consumers\ConsumerHostedService.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Consumers\EventConsumer.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Converters\EventJsonConverter.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\DataAccess\DatabaseContext.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\DataAccess\DatabaseContextFactory.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Dispatchers\QueryDispatcher.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Handlers\EventHandler.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Handlers\IEventHandler.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Repositories\CommentRepository.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Query\Post.Query.Infrastructure\Repositories\PostRepository.cs

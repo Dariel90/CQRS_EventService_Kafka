@@ -1,0 +1,9 @@
+﻿D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\DTOs\BaseResponse.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\DTOs\NewPostResponse.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\Events\CommentAddedEvent.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\Events\CommentRemovedEvent.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\Events\CommentUpdatedEvent.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\Events\MessageUpdatedEvent.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\Events\PostCreatedEvent.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\Events\PostLikedEvent.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Common\Events\PostRemovedEvent.cs

@@ -1,0 +1,15 @@
+﻿D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Commands\BaseCommand.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Consumers\IEventConsumer.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Domain\AggregateRoot.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Domain\IEventStoreRepository.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Events\BaseEvent.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Events\EventModel.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Exceptions\AggregateNotFoundException.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Exceptions\ConcurrencyException.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Handlers\IEventSourcingHandler.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Infrastructure\ICommandDispatcher.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Infrastructure\IEventStore.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Infrastructure\IQueryDispatcher.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Messages\Message.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Producers\IEventProducer.cs
+D:\source\repos\CQRS_EventSouring_Kafka\CQRS-ES\CQRS.Core\Queries\BaseQuery.cs

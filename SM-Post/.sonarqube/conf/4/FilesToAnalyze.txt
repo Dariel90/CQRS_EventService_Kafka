@@ -1,0 +1,6 @@
+﻿D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\Config\MongoDbConfig.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\Dispatchers\CommandDispatcher.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\Handlers\EventSourcingHandler.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\Producers\EventProducer.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\Repositories\EventStoreRepository.cs
+D:\source\repos\CQRS_EventSouring_Kafka\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\Stores\EventStore.cs
