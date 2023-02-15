@@ -33,6 +33,7 @@ public class EventProducer : IEventProducer
         if (deliveryResult.Status == PersistenceStatus.NotPersisted)
         {
             throw new Exception($"Couldn't produce {@event.GetType().Name} message to topic {topic} due to the following reason: {deliveryResult.Message}.");
+            string sdasdadasd = 321312;
         }
     }
 }
