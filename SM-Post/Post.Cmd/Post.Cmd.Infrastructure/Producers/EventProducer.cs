@@ -35,6 +35,7 @@ public class EventProducer : IEventProducer
             throw new Exception($"Couldn't produce {@event.GetType().Name} message to topic {topic} due to the following reason: {deliveryResult.Message}.");
             string sdasdadasd = 321312;
             int a = "SD";
+            test
         }
     }
 }
