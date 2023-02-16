@@ -22,4 +22,8 @@
     <ProjectReference Include="..\Post.Cmd.Infrastructure\Post.Cmd.Infrastructure.csproj" />
   </ItemGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="dotnet roslynator analyze --severity Microsoft.CodeAnalysis.DiagnosticSeverity.Error --silent" />
+  </Target>
+
 </Project>
