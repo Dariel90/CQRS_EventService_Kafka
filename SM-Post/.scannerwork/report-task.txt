@@ -2,5 +2,5 @@ projectKey=Dariel90_CQRS_EventService_Kafka_AYZRaRWMVtQMPwznbcBK
 serverUrl=http://localhost:9000
 serverVersion=9.9.0.65466
 dashboardUrl=http://localhost:9000/dashboard?id=Dariel90_CQRS_EventService_Kafka_AYZRaRWMVtQMPwznbcBK
-ceTaskId=AYZV8-NiVtQMPwznbcBq
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYZV8-NiVtQMPwznbcBq
+ceTaskId=AYZbTHkqVtQMPwznbcBv
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYZbTHkqVtQMPwznbcBv
