@@ -7,6 +7,14 @@
     <CodeAnalysisRuleSet>..\..\.sonarlint\dariel90_cqrs_eventservice_kafka_ayzrarwmvtqmpwznbcbkcsharp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>6</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>6</WarningLevel>
+  </PropertyGroup>
+
   <ItemGroup>
     <AdditionalFiles Include="..\..\.sonarlint\dariel90_cqrs_eventservice_kafka_ayzrarwmvtqmpwznbcbk\CSharp\SonarLint.xml" Link="SonarLint.xml" />
   </ItemGroup>
