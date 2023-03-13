@@ -38,5 +38,6 @@ public class EventProducer : IEventProducer
             test
                 otro
         }
+        otro
     }
 }
